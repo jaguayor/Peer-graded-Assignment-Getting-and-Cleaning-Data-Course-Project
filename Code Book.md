@@ -58,13 +58,32 @@ TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selectin
 Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the  activities variable
 
 ## 6.Appropriately labels the data set with descriptive variable names
-code column in TidyData renamed into activities
+code column in TidyData renamed into activity
+
+
 All Acc in column’s name replaced by Accelerometer
+
+
 All Gyro in column’s name replaced by Gyroscope
+
+
 All BodyBody in column’s name replaced by Body
+
+
 All Mag in column’s name replaced by Magnitude
+
+
+All angle in column’s name replaced by Angle
+
+
+All gravity in column’s name replaced by Gravity
+
+
 All start with character f in column’s name replaced by Frequency
+
+
 All start with character t in column’s name replaced by Time
+
 
 ## 7.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 FinalData (180 rows, 88 columns) 
